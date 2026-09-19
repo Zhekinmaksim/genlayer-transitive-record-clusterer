@@ -51,7 +51,13 @@ via `prompt_comparative`. The closure and labeling are deterministic.
 
 ## Notes
 
-Verify SDK calls against https://sdk.genlayer.com/main/api/genlayer.html and
-deploy to Studio before submitting. Union-find closure and canonical labeling
-are deterministic and checked off-chain; only the pairwise judgment is
-non-deterministic. State what was and was not simulated.
+SDK compatibility and deployment were verified in hosted Studio. Union-find
+closure and canonical labeling are deterministic and checked off-chain; only
+the pairwise judgment is non-deterministic.
+
+## Deployment
+
+- GitHub: https://github.com/Zhekinmaksim/genlayer-transitive-record-clusterer
+- Studio contract: https://explorer-studio.genlayer.com/address/0x74214E2a395c62D401e2d14CDE3b1cc89CdE5653
+- Deploy transaction: https://explorer-studio.genlayer.com/tx/0xca527a11519f3f533eeae4caec9fac195e4a389b511c3c4ef113c658018b4a1a
+- Deployed source commit: `88cbc4ec914ea9bfed59523120f12aaf609e9a63`
